@@ -1,0 +1,11 @@
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\Lect20220907_PSOS\Samp1_XmlRpc\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VK_Response.resources
