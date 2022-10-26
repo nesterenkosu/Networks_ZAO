@@ -1,0 +1,19 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<a href="https://oauth.vk.com/authorize?client_id=7148959&redirect_uri=https://oauth.vk.com/blank.html&display=popup&scope=wall&response_type=token">Авторизоваться</a>
+		<br/>
+		<a href="http://api.vk.com/method/wall.post?owner_id=219075416&message=TestingVKRest&access_token=vk1.a.KIGUcsRwoX6Vim5tYybZLaN8CzazoXnW-p9UtBSqAUboeo1x4wegX99nw3ze4IoF4wkP2VXfspz9zYtz2hlhAhYkxq23B2DiL4c7lAl2XeKbTvaOzCQ5iKC43zF1zFAPQ6A6pzZIJqJ6lB5ClggvICDcBdlvlxXNGnJYTg3Fq6O5Hjb13-fQL2twrOejqK-S&v=5.81">Опубликовать</a>
+		<a href="https://api.vk.com/method/wall.post.xml?owner_id=219075416&message=TestingVKRest&access_token=vk1.a.GWDyGpdpERNFPbuvM6Ytn_3-DyZg-rzl1ie12QBTTmGKWzxp4EhepFR847RsciQd7mAecdXOT4EQF_Z9LCIM6I1ABkx0zXcUgfdw6T0Mxytqq4s13zK0NvPIyX0PO53XW7hURbjvcQNADTvc_0Vws-M-qwL-Dzj8nK5cC0PqplmmfELS9xKg_mldE0MN-Zuy&v=5.81">Опубликовать XML</a>
+		<form action="https://api.vk.com/method/wall.post.xml" method="POST">
+			Токен:<br/>
+			<input name="access_token" type="text" size="50"/><br/>
+			<input name="owner_id" type="hidden" value="219075416"/>
+			<input name="v" type="hidden" value="5.81"/>
+			Сообщение:<br/>
+			<textarea name="message" rows="10" cols="100"></textarea><br/>
+			<input type="submit" value="Добавить запись на стену"/>
+		</form>
+	</body>
+</html>
