@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
         {
             
             var currencyCRUD = new CurrencyCRUD();
-            currencyCRUD.CheckDate();
+            //currencyCRUD.CheckDate();
 
             HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.GetAsync(@"https://quote.rbc.ru/v5/ajax/catalog/get-tickers?type=share&sort=blue_chips&limit=200&offset=0");
@@ -65,7 +65,7 @@ namespace WindowsFormsApp1
     public class Action
     {
         public string title { get; set; } 
-        public double price { get; set; } 
+        public double? price { get; set; } 
         public string currency { get; set; }
         public Company company { get; set; }
     }
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
 	//Класс для управления хранением скачанных акций в локальной базе данных
     public class CurrencyCRUD
     {
-        static string connection_string = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Lect20220926\WindowsFormsApp1\WindowsFormsApp1\MyDB.mdf;Integrated Security=True";
+        static string connection_string = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\SSD_SAVER\Downloads\Networks_ZAO-main\DownloadActions_HttpClient\WindowsFormsApp1\MyDB.mdf;Integrated Security=True";
         SqlConnection sqlConnection; 
         public CurrencyCRUD()
         {
@@ -92,7 +92,7 @@ namespace WindowsFormsApp1
         }
 		
 		//Добавление акции в базу данных
-        public void AddStock(string title, double price, string currency, string company_title)
+        public void AddStock(string title, double? price, string currency, string company_title)
         {            
             SqlCommand command = new SqlCommand(@"INSERT INTO [Table](title,price,currency,company_title,download_date) VALUES (@title,@price,@currency,@company_title,@download_date)", sqlConnection);
             command.Parameters.AddWithValue("@title",title);

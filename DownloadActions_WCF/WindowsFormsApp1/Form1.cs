@@ -24,9 +24,9 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
 			//Генерация прокси-объекта для доступа к REST API 
-			//веб-сайта с акциями
-            ChannelFactory<VK_API> vk_api = new ChannelFactory<VK_API>("VK_ENDPOINT");
-            var proxy = vk_api.CreateChannel();
+			//веб-сайта с акциями rbc.ru
+            ChannelFactory<RBC_API> rbc_api = new ChannelFactory<RBC_API>("RBC_ENDPOINT");
+            var proxy = rbc_api.CreateChannel();
 
 			//Получение списка акций с веб-сайта
             Action[] actions = proxy.GetActions();
@@ -34,14 +34,14 @@ namespace WindowsFormsApp1
 			//Вывод полученного списка акций в таблицу на форме
             foreach(Action action in actions)
             {
-                dataGridView1.Rows.Add(action.title,action.currency,action.price);
+                dataGridView1.Rows.Add(action.company.title, action.title, action.currency,action.price);
             }
         }
     }
 
     [ServiceContract]
     [DataContractFormat]
-    public interface VK_API
+    public interface RBC_API
     {
 		//Сопоставление метода GetActions с методом REST API веб-сайта с акциями
         [WebGet(
@@ -66,7 +66,7 @@ namespace WindowsFormsApp1
         [DataMember]
         public string title { get; set; }
         [DataMember]
-        public double price { get; set; }
+        public double? price { get; set; }
         [DataMember]
         public string currency { get; set; }
         [DataMember]
