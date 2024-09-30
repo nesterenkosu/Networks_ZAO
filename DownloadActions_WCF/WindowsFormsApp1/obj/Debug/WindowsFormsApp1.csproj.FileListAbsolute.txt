@@ -18,3 +18,13 @@ D:\SSD_SAVER\Downloads\Networks_ZAO-main\DownloadActions_WCF\WindowsFormsApp1\ob
 D:\SSD_SAVER\Downloads\Networks_ZAO-main\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\SSD_SAVER\Downloads\Networks_ZAO-main\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\SSD_SAVER\Downloads\Networks_ZAO-main\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\G_GITHUBMIRROR\nesterenkosu\Networks_ZAO\DownloadActions_WCF\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

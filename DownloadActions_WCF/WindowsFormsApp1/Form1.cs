@@ -11,6 +11,7 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.ServiceModel;
 using System.ServiceModel.Web;
+using System.Net;
 
 namespace WindowsFormsApp1
 {
@@ -19,14 +20,23 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            // | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-			//Генерация прокси-объекта для доступа к REST API 
-			//веб-сайта с акциями rbc.ru
+            ServicePointManager.ServerCertificateValidationCallback += (sender2, certificate, chain, sslPolicyErrors) => true;
+
+
+            /*ServicePointManager.Expect100Continue = true;
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;*/
+
+            //Генерация прокси-объекта для доступа к REST API 
+            //веб-сайта с акциями rbc.ru
             ChannelFactory<RBC_API> rbc_api = new ChannelFactory<RBC_API>("RBC_ENDPOINT");
+
             var proxy = rbc_api.CreateChannel();
+            
 
 			//Получение списка акций с веб-сайта
             Action[] actions = proxy.GetActions();

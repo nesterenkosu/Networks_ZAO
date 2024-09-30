@@ -44,7 +44,7 @@ namespace WindowsFormsApp1
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(763, 38);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Скачать курс акций";
+            this.button1.Text = "Скачать курс акций на сегодня";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -65,28 +65,28 @@ namespace WindowsFormsApp1
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Название";
+            this.Column1.HeaderText = "Компания-эмитент";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.Width = 125;
             // 
             // Column2
             // 
-            this.Column2.HeaderText = "Цена";
+            this.Column2.HeaderText = "Название акции";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.Width = 125;
             // 
             // Column3
             // 
-            this.Column3.HeaderText = "Валюта";
+            this.Column3.HeaderText = "Цена";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.Width = 125;
             // 
             // Column4
             // 
-            this.Column4.HeaderText = "Цена (Руб)";
+            this.Column4.HeaderText = "Валюта";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.Width = 125;
