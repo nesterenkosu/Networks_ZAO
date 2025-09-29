@@ -26,6 +26,9 @@ namespace WindowsFormsApp1
         {
             //Подготовка к скачиванию акций - инициализация сетевых объектов
             HttpClient client = new HttpClient();
+
+            client.DefaultRequestHeaders.Add("User-Agent", "manual2");
+
             HttpResponseMessage response = await client.GetAsync(@"https://quote.rbc.ru/v5/ajax/catalog/get-tickers?type=share&sort=blue_chips&limit=200&offset=0");
             response.EnsureSuccessStatusCode();
 			
